@@ -2,18 +2,21 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Ejercicio7_cap4;
+package ejercicio10_cap4;
 
 /**
  *
  * @author restr
  */
-public class Ejercicio7_cap4 {
-    public static void main(String[] args) {
-        
-        
-        
-        
+public class Estudiante {
+    
+    
+    public static double obterner_pago(double PAT){
+        return 50000 + (PAT*0.03);
     }
+        
+    
+        
+        
     
 }
