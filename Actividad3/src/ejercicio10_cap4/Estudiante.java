@@ -11,7 +11,7 @@ package ejercicio10_cap4;
 public class Estudiante {
     
     
-    public static double obterner_pago(double PAT){
+    public static double obtener_pago(double PAT){
         return 50000 + (PAT*0.03);
     }
         

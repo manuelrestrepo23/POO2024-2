@@ -6,9 +6,9 @@ package Ejercicio18_cap3;
 
 
 public class Empleado {
-    double codigo, retencion;
-    double horastra, valhor, porce_retencion, salbru, salnet;;
-    String nombre;
+    double retencion;
+    double horastra, valhor, porce_retencion, salbru;
+    
     
     public static double calcular_retencion(double salbru, double porce_retencion ){
             return salbru*(porce_retencion/100);

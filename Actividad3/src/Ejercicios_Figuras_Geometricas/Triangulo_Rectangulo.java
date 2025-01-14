@@ -4,10 +4,6 @@
  */
 package Ejercicios_Figuras_Geometricas;
 
-/**
- *
- * @author restr
- */
 public class Triangulo_Rectangulo {
     int base; 
     int altura; 

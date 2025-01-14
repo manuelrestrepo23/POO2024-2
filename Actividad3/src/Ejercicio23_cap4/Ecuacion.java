@@ -5,7 +5,7 @@
 package Ejercicio23_cap4;
 
 public class Ecuacion {
-    private double A, B, C;
+    public double A, B, C;
 
     public Ecuacion(double A, double B, double C) {
         this.A = A;
@@ -33,14 +33,7 @@ public class Ecuacion {
             return "La ecuacion no tiene soluciones reales.";
         }
     }
-
-    // Método principal de prueba
-    public static void main(String[] args) {
-        // Crear una instancia de la clase con valores de prueba
-        Ecuacion ecuacion = new Ecuacion(1, -3, 2);
-
-        // Resolver la ecuación y mostrar el resultado
-        String resultado = ecuacion.resolverEcuacion();
-        System.out.println(resultado);
-    }
 }
+    
+
+

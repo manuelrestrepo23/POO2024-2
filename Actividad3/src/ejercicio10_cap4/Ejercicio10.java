@@ -28,7 +28,7 @@ public class Ejercicio10 {
         ES = entrada.nextInt();
         
         if((PAT>2000000) && (ES>3)){
-            PAGO = Estudiante.obterner_pago(PAT);
+            PAGO = Estudiante.obtener_pago(PAT);
     }
         else{ 
             PAGO = 50000;
@@ -38,12 +38,3 @@ public class Ejercicio10 {
         
     }
 }
-/*INICIO
-LEA: NI, NOM, PAT, ES
-PAGMAT = 50000
-SI (PAT > 2000000) Ù (ES > 3) ENTONCES
-PAGMAT = PAGMAT + 0.03 * PAT
-FIN_SI
-ESCRIBA: “EL ESTUDIANTE CON NUMERO DE INSCRIPCION”, NI,
-“Y NOMBRE”, NOM, “DEBE PAGAR: $”, PAGMAT
-FIN_INICIO*/
